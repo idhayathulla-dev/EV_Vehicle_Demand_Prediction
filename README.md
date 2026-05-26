@@ -23,6 +23,7 @@ This is a learning-focused project, not a production deployment.
 
 ## Repository Structure
 
+```text
 .
 ├── app.py
 ├── EV_Adoption_Forecasting.ipynb
