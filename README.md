@@ -31,11 +31,11 @@ This is a learning-focused project, not a production deployment.
 ├── preprocessed_ev_data.csv
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
-## Files Description
+# Files Description
 
 - `app.py` – Simple demonstration script to load data and run a sample workflow  
 - `EV_Adoption_Forecasting.ipynb` – Main notebook containing EDA, modeling, and evaluation  
@@ -45,13 +45,14 @@ This is a learning-focused project, not a production deployment.
 
 ---
 
-## Requirements & Setup
+# Requirements & Setup
 
-### Prerequisites
+## Prerequisites
+
 - Python 3.8+
 - Git
 
-### Installation
+## Installation
 
 ```bash
 git clone <repository-url>
@@ -63,58 +64,79 @@ python -m venv .venv
 
 pip install --upgrade pip
 pip install -r requirements.txt
-Usage
-Run the Jupyter Notebook
+```
+
+---
+
+# Usage
+
+## Run the Jupyter Notebook
+
+```bash
 jupyter notebook EV_Adoption_Forecasting.ipynb
+```
+
 The notebook includes:
 
-Data loading and preprocessing
+- Data loading and preprocessing
+- Exploratory data analysis
+- Feature engineering
+- Model training
+- Forecast evaluation (MAE, RMSE)
 
-Exploratory data analysis
+## Run the Demo Script
 
-Feature engineering
-
-Model training
-
-Forecast evaluation (MAE, RMSE)
-
-Run the Demo Script
+```bash
 python app.py
-Dataset
-Electric_Vehicle_Population_By_County.csv
+```
+
+---
+
+# Dataset
+
+## `Electric_Vehicle_Population_By_County.csv`
+
 Raw EV population counts aggregated at the U.S. county level.
 
-preprocessed_ev_data.csv
+## `preprocessed_ev_data.csv`
+
 Cleaned dataset used directly for modeling.
 
 Any additional data sources should be properly documented if added.
 
-Results
-Baseline regression and time-series models implemented
+---
 
-Model performance evaluated using MAE and RMSE
+# Results
 
-Clear regional differences observed in EV adoption trends
+- Baseline regression and time-series models implemented
+- Model performance evaluated using MAE and RMSE
+- Clear regional differences observed in EV adoption trends
 
 Detailed analysis and visualizations are available in the notebook.
 
-Contributing
+---
+
+# Contributing
+
 This repository is primarily for learning, but contributions are welcome.
 
 Suggested improvements:
 
-Advanced forecasting models
-
-Better feature engineering
-
-Cross-validation and tuning
-
-Documentation enhancements
+- Advanced forecasting models
+- Better feature engineering
+- Cross-validation and tuning
+- Documentation enhancements
 
 Please open an issue before making major changes.
 
-License
+---
+
+# License
+
 This project is intended for educational and learning purposes.
 
-Acknowledgements
+---
+
+# Acknowledgements
+
 Developed as part of a learning internship under AICTE, focusing on practical data science and machine learning fundamentals.
